@@ -2,21 +2,21 @@
     {
         "firstname": "John",
         "lastname": "Doe",
-        "picture":  "avatar1"
+        "picture":  "avatar1.png"
     },
     {
         "firstname": "Max",
         "lastname": "Frolov",
-        "picture":  "avatar2"
+        "picture":  "avatar2.jpg"
     },
     {
         "firstname": "Joosep",
         "lastname": "Tavits",
-        "picture":  "avatar3"
+        "picture":  "avatar3.jpg"
     },
     {
         "firstname": "Olger",
         "lastname": "Männik",
-        "picture":  "avatar4"
+        "picture":  "avatar4.jpg"
     }
 ]

@@ -39,6 +39,15 @@ a {
     text-align: center;
 }
 
+#theImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+    margin: 5px;
+}
+
 #login-container form div > input {
     padding: 8px 16px;
     margin: 4px 0;
@@ -54,6 +63,20 @@ button {
 }
 
 button:hover {
+    box-shadow: 0 0 5px rgba(38, 50, 56, 0.7);
+    cursor: pointer;
+}
+
+.button-follow {
+    padding: 8px 16px;
+    margin: 4px 0;
+    color: #ffffff;
+    background-color: #629cc9;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-follow:hover {
     box-shadow: 0 0 5px rgba(38, 50, 56, 0.7);
     cursor: pointer;
 }
@@ -144,6 +167,7 @@ nav div.avatar-container {
     text-align: center;
 
 }
+
 
 .post {
     width: 80%;

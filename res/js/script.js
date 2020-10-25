@@ -1,12 +1,13 @@
-let idx = 0
+
 $(function () {
+
 
 
         loadUserInfo()
         .then(function (response) {
             response.forEach(function (user) {
                 user = new User(user.firstname, user.lastname, user.picture);
-                displayUserInfo(user);
+                $(".profile-container").append('<div class="profile">' + '<div> <img id="theImg" src="./res/images/' + user.picture + '" /></div>' + '<div>' + user.firstname + ' ' + user.lastname + '</div><div> <button class="button-follow">Follow</button></div></div>');
                 console.log('displayedinfo')
             });
         })
@@ -14,15 +15,18 @@ $(function () {
             console.log('Error loading user info')
         });
 
+        $(".button-follow").click(function() { 
+            console.log("vajutasin nupule")
+            if ($(this).text() == "Follow") { 
+                $(this).text("Followed"); 
+            } else { 
+                $(this).text("Followed"); 
+            }; 
+        });
+
 
 
 });
-
-function displayUserInfo(user) {
-    $('#profile' + idx + '#name' + idx).text(user.firstname + " " + user.lastname);
-    $('#profile' + idx +  '#picture' + idx).text(user.picture );
-    idx += 1
-}
 
 function loadUserInfo() {
     return $.get(
@@ -40,3 +44,4 @@ function loadUserInfo() {
 
     );
 }
+
