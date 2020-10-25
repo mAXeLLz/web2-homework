@@ -1,0 +1,22 @@
+[
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "picture":  "avatar1"
+    },
+    {
+        "firstname": "Max",
+        "lastname": "Frolov",
+        "picture":  "avatar2"
+    },
+    {
+        "firstname": "Joosep",
+        "lastname": "Tavits",
+        "picture":  "avatar3"
+    },
+    {
+        "firstname": "Olger",
+        "lastname": "Männik",
+        "picture":  "avatar4"
+    }
+]
