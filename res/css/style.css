@@ -120,6 +120,30 @@ nav div.avatar-container {
     padding: 90px 15px 15px 15px;
     background-color: #ffffff;
 }
+.profile-container {
+    display: flex;
+    width: 50%;
+    min-height: 100%;
+    margin: auto auto;
+    flex-wrap: wrap;
+    padding: 90px 15px 15px 15px;
+    background-color: #ffffff;
+    writing-mode: horizontal-tb; 
+    direction: ltr; 
+    place-content: end center;
+}
+
+.profile {
+    justify-content: right;
+    align-items: right;
+    width: 40%;
+    height: 30%;
+    margin: 15px 15px 15px 15px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+
+}
 
 .post {
     width: 80%;
