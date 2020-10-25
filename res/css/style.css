@@ -227,7 +227,9 @@ nav div.avatar-container {
     background-color: #01579b;
 }
 
-
+.dropdownlist {
+    float: right;
+}
 
 
 
