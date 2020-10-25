@@ -4,7 +4,7 @@
     "posttext": "I think it's going to rain",
     "createtime": "Sep 18, 2020 15:16",
     "likes":  "100k",
-    "picture": "res/images/avatar.png",
+    "picture": "res/images/avatar1.png",
     "name": "John Doe"
   },
   {
@@ -12,7 +12,7 @@
     "posttext": "Which weighs more, a pound of feathers or a pound of bricks?",
     "createtime": "Sep 18, 2020 15:16",
     "likes":  "15k",
-    "picture": "res/images/avatar.png",
+    "picture": "res/images/avatar1.png",
     "name": "John Doe"
   },
   {
@@ -20,7 +20,7 @@
     "posttext": "Felt cute, might delete later",
     "createtime": "Sep 18, 2020 17:18",
     "likes":  "10k",
-    "picture": "res/images/avatar.png",
+    "picture": "res/images/avatar1.png",
     "name": "John Doe"
   }
 ]
